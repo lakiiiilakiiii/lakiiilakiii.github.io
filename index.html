@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
+<link href="new1.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="wwb18.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $('#MergedObject1').addClass('visibility-hidden');
+   $('#wb_Image2').addClass('visibility-hidden');
+   $('#wb_Image1').addClass('visibility-hidden');
+   $('#wb_Image6').addClass('visibility-hidden');
+   $('#wb_Image7').addClass('visibility-hidden');
+   function onScrollMergedObject1()
+   {
+      var $obj = $("#MergedObject1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('MergedObject1', 'transform-tada', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('MergedObject1', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#MergedObject1').inViewPort(true))
+   {
+      $('#MergedObject1').addClass("in-viewport");
+   }
+   onScrollMergedObject1();
+   $(window).scroll(function(event)
+   {
+      onScrollMergedObject1();
+   });
+   function onScrollImage2()
+   {
+      var $obj = $("#wb_Image2");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Image2', 'puff-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Image2', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Image2').inViewPort(true))
+   {
+      $('#wb_Image2').addClass("in-viewport");
+   }
+   onScrollImage2();
+   $(window).scroll(function(event)
+   {
+      onScrollImage2();
+   });
+   function onScrollImage1()
+   {
+      var $obj = $("#wb_Image1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Image1', 'slide-right-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Image1', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Image1').inViewPort(true))
+   {
+      $('#wb_Image1').addClass("in-viewport");
+   }
+   onScrollImage1();
+   $(window).scroll(function(event)
+   {
+      onScrollImage1();
+   });
+   function onScrollImage6()
+   {
+      var $obj = $("#wb_Image6");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Image6', 'jello-horizontal', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Image6', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Image6').inViewPort(true))
+   {
+      $('#wb_Image6').addClass("in-viewport");
+   }
+   onScrollImage6();
+   $(window).scroll(function(event)
+   {
+      onScrollImage6();
+   });
+   function onScrollImage7()
+   {
+      var $obj = $("#wb_Image7");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Image7', 'slide-left-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Image7', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Image7').inViewPort(true))
+   {
+      $('#wb_Image7').addClass("in-viewport");
+   }
+   onScrollImage7();
+   $(window).scroll(function(event)
+   {
+      onScrollImage7();
+   });
+   if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {$('#preloader').remove();}
+});
+$(window).on('load', function()
+{
+   $('#preloader').remove();
+});
+</script>
+</head>
+<body>
+<div id="container">
+<img src="img0002.webp" id="MergedObject1" alt="" title="" style="border-width:0;position:absolute;left:317px;top:246px;width:660px;height:343px;z-index:0" width="660" height="343">
+<div id="wb_Image2" style="position:absolute;left:316px;top:2444px;width:660px;height:343px;z-index:1;">
+<img src="images/Sprite-we0004.png" id="Image2" alt="" title="hihihi" width="660" height="343"></div>
+<div id="wb_Image1" style="position:absolute;left:262px;top:2042px;width:192px;height:192px;z-index:2;">
+<img src="images/Sprite-00ty04.gif" id="Image1" alt="" width="192" height="192"></div>
+<div id="wb_Image4" style="position:absolute;left:538px;top:1760px;width:160px;height:160px;z-index:3;">
+<img src="images/zombie_girl 1.gif" id="Image4" alt="" width="160" height="160"></div>
+<div id="wb_Image5" style="position:absolute;left:14px;top:17px;width:186px;height:11px;z-index:4;">
+<img src="system_loading text.webp" id="Image5" alt="" width="186" height="12"></div>
+<div id="wb_Image6" style="position:absolute;left:316px;top:3165px;width:660px;height:343px;z-index:5;">
+<img src="images/Sprite-we0004.png" id="Image6" alt="" title="hihihi" width="660" height="343"></div>
+<div id="wb_Text1" style="position:absolute;left:358px;top:1129px;width:577px;height:48px;z-index:6;">
+&nbsp;</div>
+<div id="wb_Image7" style="position:absolute;left:764px;top:2032px;width:192px;height:192px;z-index:7;">
+<img src="images/Sprite-00ty04.gif" id="Image7" alt="" width="192" height="192"></div>
+<div id="wb_Text3" style="position:absolute;left:317px;top:895px;width:659px;height:540px;z-index:8;">
+<span style="color:#FFFF00;font-family:'Nishuki pixels';font-size:53px;">student with a fascination for the intersection of design and technology.<br>&gt; Making aesthetically pleasing ideas and turning them into useful, approachable applications is something I'm really passionate about.</span><span style="color:#000000;font-family:'Nishuki pixels';font-size:53px;"><br></span></div>
+<div id="wb_Text2" style="position:absolute;left:254px;top:861px;width:237px;height:34px;z-index:9;">
+<p>About_me</p></div>
+</div>
+<div id="preloader"></div>
+</body>
+</html>
